@@ -14,6 +14,7 @@ function getSessionDetails(sessionId, success, error) {
 }
 
 function showSessionList() {
+    alert('Heroku automatic deploys is work.')
     getSessionList(
         function (data) {
             var sessions = data.records,
